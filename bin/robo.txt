@@ -1,0 +1,24 @@
+move
+right
+left
+report
+place 1,1,South
+move
+move
+move
+report
+left
+move
+move
+report
+
+wrong data:
+place 1.1,2.1 
+place
+move left
+move right
+place 1,1
+place 1 , 1 , south
+report
+move
+
