@@ -38,7 +38,7 @@ public class ValidateInput {
 	public boolean isValid() {
 		
 		String [] firstToken = tokens.split("_space_");
-		if (firstToken != null && firstToken.length == 2){
+		if (firstToken != null && firstToken.length == 2 && firstToken[0].toUpperCase().equals("PLACE")){
 			setCommand("PLACE");
 			String coordinates[] = firstToken[1].split(",");
 			if (coordinates != null && coordinates.length == 3){
